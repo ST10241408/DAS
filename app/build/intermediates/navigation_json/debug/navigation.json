@@ -1,0 +1,22 @@
+[
+  {
+    "name": "admin_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "coordinator_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "scanner_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "stocktaker_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

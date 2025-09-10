@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scanner_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dialastocktaker.ui.scanner.ScannerHomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/nav_jobs"
+        android:name="com.example.dialastocktaker.ui.scanner.ScannerJobsFragment"
+        android:label="Jobs" />
+
+    <fragment
+        android:id="@+id/nav_uploads"
+        android:name="com.example.dialastocktaker.ui.scanner.ScannerUploadsFragment"
+        android:label="Uploads" />
+
+    <fragment
+        android:id="@+id/nav_messages"
+        android:name="com.example.dialastocktaker.ui.scanner.ScannerMessagesFragment"
+        android:label="Messages" />
+</navigation>
