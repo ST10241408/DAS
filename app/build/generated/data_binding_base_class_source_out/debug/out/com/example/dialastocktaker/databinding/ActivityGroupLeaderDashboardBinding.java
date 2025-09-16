@@ -4,48 +4,60 @@ package com.example.dialastocktaker.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
-import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.dialastocktaker.R;
-import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityGroupLeaderDashboardBinding implements ViewBinding {
   @NonNull
-  private final DrawerLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final DrawerLayout drawerLayout;
+  public final BottomNavigationView bottomNav;
+
+  @NonNull
+  public final ImageButton btnLogout;
 
   @NonNull
   public final FragmentContainerView fragmentContainer;
 
   @NonNull
-  public final NavigationView navView;
+  public final ImageView ivLogo;
 
   @NonNull
   public final Toolbar toolbar;
 
-  private ActivityGroupLeaderDashboardBinding(@NonNull DrawerLayout rootView,
-      @NonNull DrawerLayout drawerLayout, @NonNull FragmentContainerView fragmentContainer,
-      @NonNull NavigationView navView, @NonNull Toolbar toolbar) {
+  @NonNull
+  public final TextView tvTitle;
+
+  private ActivityGroupLeaderDashboardBinding(@NonNull ConstraintLayout rootView,
+      @NonNull BottomNavigationView bottomNav, @NonNull ImageButton btnLogout,
+      @NonNull FragmentContainerView fragmentContainer, @NonNull ImageView ivLogo,
+      @NonNull Toolbar toolbar, @NonNull TextView tvTitle) {
     this.rootView = rootView;
-    this.drawerLayout = drawerLayout;
+    this.bottomNav = bottomNav;
+    this.btnLogout = btnLogout;
     this.fragmentContainer = fragmentContainer;
-    this.navView = navView;
+    this.ivLogo = ivLogo;
     this.toolbar = toolbar;
+    this.tvTitle = tvTitle;
   }
 
   @Override
   @NonNull
-  public DrawerLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -70,7 +82,17 @@ public final class ActivityGroupLeaderDashboardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      DrawerLayout drawerLayout = (DrawerLayout) rootView;
+      id = R.id.bottomNav;
+      BottomNavigationView bottomNav = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNav == null) {
+        break missingId;
+      }
+
+      id = R.id.btnLogout;
+      ImageButton btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
+        break missingId;
+      }
 
       id = R.id.fragmentContainer;
       FragmentContainerView fragmentContainer = ViewBindings.findChildViewById(rootView, id);
@@ -78,9 +100,9 @@ public final class ActivityGroupLeaderDashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.navView;
-      NavigationView navView = ViewBindings.findChildViewById(rootView, id);
-      if (navView == null) {
+      id = R.id.ivLogo;
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
+      if (ivLogo == null) {
         break missingId;
       }
 
@@ -90,8 +112,14 @@ public final class ActivityGroupLeaderDashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGroupLeaderDashboardBinding((DrawerLayout) rootView, drawerLayout,
-          fragmentContainer, navView, toolbar);
+      id = R.id.tvTitle;
+      TextView tvTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvTitle == null) {
+        break missingId;
+      }
+
+      return new ActivityGroupLeaderDashboardBinding((ConstraintLayout) rootView, bottomNav,
+          btnLogout, fragmentContainer, ivLogo, toolbar, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -10,6 +10,11 @@
     "deepLinks": []
   },
   {
+    "name": "groupleader_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
     "name": "scanner_navigation",
     "navigationXmlIds": [],
     "deepLinks": []

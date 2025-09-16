@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/groupleader_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.dialastocktaker.ui.groupLeader.GroupLeaderHomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/jobsFragment"
+        android:name="com.example.dialastocktaker.ui.groupLeader.GroupLeaderJobsFragment"
+        android:label="Jobs" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.dialastocktaker.ui.groupLeader.GroupLeaderProfileFragment"
+        android:label="Profile" />
+
+</navigation>

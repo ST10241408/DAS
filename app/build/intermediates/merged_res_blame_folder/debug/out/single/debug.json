@@ -36,12 +36,12 @@
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\layout\\activity_manager_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\layout_fragment_group_leader_messages.xml.flat",
-        "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\layout\\fragment_group_leader_messages.xml"
-    },
-    {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\drawable_message_sent_background.xml.flat",
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\drawable\\message_sent_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\layout_fragment_group_leader_messages.xml.flat",
+        "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\layout\\fragment_group_leader_messages.xml"
     },
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\drawable\\message_received_background.xml"
     },
     {
-        "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\drawable_bg_card.xml.flat",
-        "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\drawable\\bg_card.xml"
+        "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\drawable_ic_team.png.flat",
+        "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\drawable\\ic_team.png"
     },
     {
-        "merged": "com.example.dialastocktaker.app-merged_res-55:/layout_activity_admin_dashboard.xml.flat",
-        "source": "com.example.dialastocktaker.app-main-57:/layout/activity_admin_dashboard.xml"
+        "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\drawable\\bg_card.xml"
     },
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\layout_fragment_stocktaker_jobs.xml.flat",
@@ -102,10 +102,6 @@
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\layout_item_message.xml.flat",
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\layout\\item_message.xml"
-    },
-    {
-        "merged": "com.example.dialastocktaker.app-merged_res-55:/layout_activity_coordinator_dashboard.xml.flat",
-        "source": "com.example.dialastocktaker.app-main-57:/layout/activity_coordinator_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\layout_fragment_coordinator_home.xml.flat",
@@ -128,6 +124,10 @@
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\layout\\fragment_manager_jobs.xml"
     },
     {
+        "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\menu_groupleader_nav_menu.xml.flat",
+        "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\menu\\groupleader_nav_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\menu_coordinator_bottom_nav.xml.flat",
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\menu\\coordinator_bottom_nav.xml"
     },
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\navigation_scanner_navigation.xml.flat",
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\navigation\\scanner_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\menu_groupleader_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\menu\\groupleader_bottom_nav_menu.xml"
     },
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\layout_fragment_scanner_uploads.xml.flat",
@@ -178,6 +182,10 @@
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\drawable_ic_logo.xml.flat",
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\drawable\\ic_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\navigation_groupleader_navigation.xml.flat",
+        "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\navigation\\groupleader_navigation.xml"
     },
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\layout_fragment_admin_messages.xml.flat",
@@ -370,6 +378,10 @@
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\navigation_coordinator_navigation.xml.flat",
         "source": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-main-57:\\navigation\\coordinator_navigation.xml"
+    },
+    {
+        "merged": "com.example.dialastocktaker.app-merged_res-55:/layout_item_user.xml.flat",
+        "source": "com.example.dialastocktaker.app-main-57:/layout/item_user.xml"
     },
     {
         "merged": "C:\\Users\\RC_Student_lab\\.gradle\\daemon\\8.5\\com.example.dialastocktaker.app-merged_res-55:\\drawable_ic_reports.xml.flat",

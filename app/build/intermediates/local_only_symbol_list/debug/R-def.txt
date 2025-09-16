@@ -39,6 +39,7 @@ drawable ic_report
 drawable ic_reports
 drawable ic_send
 drawable ic_sun
+drawable ic_team
 drawable message_input_background
 drawable message_received_background
 drawable message_sent_background
@@ -116,9 +117,12 @@ id etName
 id etPassword
 id etPhone
 id fragmentContainer
+id groupleader_navigation
+id homeFragment
 id imageView
 id ivLogo
 id ivUnread
+id jobsFragment
 id layoutCoordinatorHome
 id layoutCoordinatorJobs
 id layoutCoordinatorMessages
@@ -143,6 +147,7 @@ id nav_team
 id nav_uploads
 id nav_users
 id nav_view
+id profileFragment
 id progressBar
 id recyclerViewJobs
 id recyclerViewMessages
@@ -282,7 +287,8 @@ menu client_bottom_nav_menu
 menu coordinator_bottom_nav
 menu coordinator_bottom_nav_menu
 menu coordinator_drawer_menu
-menu groupleader_drawer_menu
+menu groupleader_bottom_nav_menu
+menu groupleader_nav_menu
 menu manager_menu
 menu scanner_bottom_nav_menu
 menu scanner_drawer_menu
@@ -292,6 +298,7 @@ menu toolbar_menu
 mipmap ic_launcher_round
 navigation admin_navigation
 navigation coordinator_navigation
+navigation groupleader_navigation
 navigation scanner_navigation
 navigation stocktaker_navigation
 string action_settings

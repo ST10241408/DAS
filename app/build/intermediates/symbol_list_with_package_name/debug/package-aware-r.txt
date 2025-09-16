@@ -3084,6 +3084,7 @@ drawable ic_reports
 drawable ic_search_black_24
 drawable ic_send
 drawable ic_sun
+drawable ic_team
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3444,12 +3445,14 @@ id graph
 id graph_wrap
 id group_divider
 id grouping
+id groupleader_navigation
 id groups
 id header_title
 id hide_ime_id
 id hideable
 id home
 id homeAsUp
+id homeFragment
 id honorRequest
 id horizontal_only
 id icon
@@ -3469,6 +3472,7 @@ id italic
 id item_touch_helper_previous_elevation
 id ivLogo
 id ivUnread
+id jobsFragment
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3624,6 +3628,7 @@ id pin
 id position
 id postLayout
 id pressed
+id profileFragment
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -4104,7 +4109,8 @@ menu client_bottom_nav_menu
 menu coordinator_bottom_nav
 menu coordinator_bottom_nav_menu
 menu coordinator_drawer_menu
-menu groupleader_drawer_menu
+menu groupleader_bottom_nav_menu
+menu groupleader_nav_menu
 menu manager_menu
 menu scanner_bottom_nav_menu
 menu scanner_drawer_menu
@@ -4114,6 +4120,7 @@ menu toolbar_menu
 mipmap ic_launcher_round
 navigation admin_navigation
 navigation coordinator_navigation
+navigation groupleader_navigation
 navigation scanner_navigation
 navigation stocktaker_navigation
 plurals mtrl_badge_content_description
